@@ -1,0 +1,291 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Rubik+Distressed&display=swap');
+
+/* font-family: 'Rubik Distressed', cursive; */
+
+/* base html codes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+ --main-color: #0071c2;
+ --second-color : #be9e83 ;
+ --black-color : #302d2b ;
+
+}
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+html{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 10px;
+}
+
+/* base html codes */
+
+/* header section */
+
+
+header .first-header {
+    display: flex;
+    font-size: 1.5rem;
+    
+    text-align: center;
+    
+    padding-top: 2rem;
+
+}
+
+
+
+header .first-header .buttons .envelope {
+    background: none;
+    font-size: 3rem;
+    border: none;
+    padding: 1rem 1.5rem;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+header .first-header .buttons .envelope:hover{
+    cursor: pointer;
+   transition: ease 0.6s;
+   
+   font-size: 3.5rem;
+   
+}
+
+header .first-header .buttons{
+    
+    display: flex;
+    position: relative;
+    left: 100rem;
+    justify-content: space-evenly;
+
+}
+header .first-header .buttons a{
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 4px;
+    padding: 2rem 2rem;
+    margin: 0 1rem;
+    border-color: #0071c2;
+    color: #0071c2;
+    
+}
+header .first-header .buttons a:hover{
+    opacity: 0.9;
+    transition: ease 0.4s;
+    background-color: #0071c2;
+    color: aliceblue;
+    border: 1px solid #0071c2;
+    box-shadow: 0 0 17px -2px var(--black-color);
+}
+header .first-header .buttons a.list{
+    color:aliceblue;
+    background-color: #0071c2;
+    border: 1px solid var(--main-color) ;
+}
+header .first-header .buttons a.list:hover{
+    border: 1px solid #0071c2;
+    font-weight: 500;
+    background-color: #035997;
+    
+    transition: ease 0.4s;
+}
+
+.second-header .navbar{
+    
+    font-size: 1.6rem;
+    color: #302d2b;
+    display: flex;
+    position: relative;
+    top: 6rem;
+}
+.second-header .navbar a{
+    margin: 0 1rem;
+    border-bottom: 1px solid #302d2b;
+}
+.second-header .navbar a:hover{
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    transition: ease 0.7s;
+}
+.second-header .navbar .active{
+   border-color: #302d2b;
+   text-transform: uppercase;
+   background-color:#302d2b ;
+   color: #be9e83;
+   padding: 1rem;
+}
+
+/* header section */
+
+/* first-page section */
+.first-page{
+    background: url(./image/pexels-asad-photo-maldives-3155666.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -101.80px;
+    align-items: center;
+    display: flex;
+}
+
+.first-page .content{
+position: relative;
+top: 8rem;
+left: 5rem;
+max-width: 50rem;
+justify-content: space-around;
+
+
+}
+
+.first-page .content p{
+    font-size: 2.5rem;
+}
+
+.first-page .content h2{
+    font-size: 4rem;
+}
+
+.first-page .content .btn {
+    padding: 2rem 2.7rem;
+    background-color: #0071c2;
+    color: aliceblue;
+    font-size: 1.5rem;
+    display: inline-block;
+    position: relative;
+    top: 1rem;
+    
+} 
+
+.first-page .content .btn:hover{
+    background-color: #035997;
+    transition: ease 0.6s;
+    box-shadow: 0 0 17px -2px var(--black-color);
+    font-weight: 300;
+}
+
+.first-page .form{
+    padding: 4rem 1rem;
+    border-radius: 5rem;
+    background-color: #302d2ba2;
+    position: relative;
+    left: 8rem;
+    top: 22rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.first-page .form .bed{
+    display: flex;
+    border-radius: 1rem;
+    background-color: #ffff;
+    color: #302d2b;
+    padding: 0.6rem 1rem;
+    border: 2px solid #be9e83;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+   
+}
+.first-page .form .bed input{
+    border: none;
+    font-size: 1.7rem;
+    font-family:sans-serif;
+    text-align: center;
+    
+
+}
+.first-page .form .bed i{
+    
+    font-size: 2rem;
+  
+
+}
+
+.first-page .form .date{
+    display: flex;
+    background-color: #ffff;
+    color: #302d2b;
+    padding: 0.6rem 2rem;
+    border: 2px solid #be9e83;
+    justify-content: center;
+    height: 5rem;
+    border-radius: 1rem;
+    align-items: center;
+    margin-left: 1rem;
+
+    
+}
+
+.first-page .form .date button{
+    
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    border: none;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    background-color: inherit;
+     margin-left: 1rem;
+   
+}
+
+.first-page .form .date i{
+    
+    font-size: 2rem ;
+    
+}
+.first-page .form .date button:hover {
+    cursor: pointer;
+}
+
+.first-page .form .person{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0.6rem 2rem;
+    border: 2px solid #be9e83;
+    border-radius: 1rem;
+    background-color: #ffff;
+    height: 5rem;
+    margin-left: 1rem;
+}
+
+.first-page .form .person button{
+    background-color: inherit;
+    border: none;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+   
+    margin-left: 1rem;
+}
+
+.first-page .form .person i{
+    font-size: 2rem;
+}
+
+.first-page .form .person button:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* first-page section */
